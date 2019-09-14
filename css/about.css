@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.jumbo-about {
+    display: flex;
+    align-items: center;
+    margin: 30px auto 40px;
+}
+
+
+footer {
+    width: 105%;
+    background: black;
+    margin-left: -20px;
+    margin-bottom: -20px;;
+}
+
+footer nav {
+    width: 70%;
+    display: flex;
+    padding: 20px 2%;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    font-size: 18px;
+    margin: 50px auto 40px;
+    padding-right: 40px;
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+}  
+
+.logo {
+    margin: -20px 0px 0px 0px;
+}
+
+.top-row {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 680px;
+  }
+  
+  .strategy {
+    padding-right: 20px;
+    width: 40%;
+    margin: 0px;
+  }
+
+  .how-we-work {
+    padding: 0px;
+    width: 40%;
+    margin: 0px;
+  }
+  
+  .middle-row {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 680px
+  }
+  
+  .places-we-work {
+    padding-right: 20px;
+    width: 40%;
+    margin: 0px;
+  }
+
+  .collaboration {
+    padding: 0px;
+    width: 40%;
+    margin: 0px;
+  }
+
+  .button {
+      margin: 20px;
+      border: 2px solid black;
+      border-radius: 5px;
+      width: 150px;
+      height: 40px;
+      background-color: white;
+  }
+
+  .bottom {
+      margin: 30px 0px;
+  }
+
+  hr {
+    margin: 20px auto;
+    border-top: 2px dotted
+  }
+  
+  .paragraph-title {
+      margin-top: 15px;
+  }

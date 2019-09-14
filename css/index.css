@@ -227,7 +227,7 @@ p {
 
 .jumbo {
     display: flex;
-    margin: 30px auto 40px;
+    margin: 30px auto 20px;
 }
 
 
@@ -250,15 +250,21 @@ footer nav a {
     text-decoration: none;
 }
 
-nav {
+.header-nav {
     display: flex;
     justify-content: space-between;
     width: 800px;
-    font-size: 18px;
-    margin: 30px auto 40px;
-    padding-right: 50px;
+    font-size: 14px;
+    margin: 50px auto 40px;
+    padding-right: 40px
   }
 
 a {
     text-decoration: none;
+    color: black;
 }  
+
+.logo {
+    margin: -20px 0px 0px 0px;
+}
+
